@@ -241,6 +241,13 @@ body {
     pointer-events: auto;
   }
 }
+.icon-link__body_hover2 .icon-link__text_line::after, .icon-link__body_hover2 .icon-link__text-inner::after {
+  width: 0%;
+  left: 0;
+}
+.icon-link__body_hover2:hover .icon-link__text_line::after, .icon-link__body_hover2:hover .icon-link__text-inner::after {
+  width: 100%;
+}
 .icon-link__icon {
   width: 1.5rem;
   height: 1.5rem;
