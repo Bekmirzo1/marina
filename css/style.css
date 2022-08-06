@@ -1278,7 +1278,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border: 0.0625rem solid #b3cef9;
+  border: 0.0625rem solid #e4e4e4;
 }
 
 @supports (padding-top: clamp( 0.3125rem , -0.2083116319rem  +  1.7361111111vw , 0.625rem )) {
