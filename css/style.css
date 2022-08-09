@@ -1120,7 +1120,19 @@ body {
 }
 
 .know__image-body {
+  overflow: hidden;
+  height: 0;
   padding-bottom: 142.7083333333%;
+}
+
+.know__image-body video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @supports (margin-bottom: clamp( 0.625rem , -0.4166232639rem  +  3.4722222222vw , 1.25rem )) {
@@ -2177,11 +2189,6 @@ body {
 
   .know__column:last-child .know__image-body {
     padding-bottom: 97.5961538462%;
-  }
-
-  .know__column:last-child .know__image-body img {
-    -o-object-position: 57% 40%;
-       object-position: 57% 40%;
   }
 
   .inside__image-body {
